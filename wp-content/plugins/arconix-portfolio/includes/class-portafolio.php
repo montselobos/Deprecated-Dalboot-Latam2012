@@ -819,7 +819,7 @@ class Arconix_Portfolio {
                   switch($datitos) {
                     case "info" : 
                     
-                    $return .="<div class='dal-portfolio-datitos'><h1 style='color: red;'> HOLAAAA</h1><div class='dal-fila'>";
+                    $return .="<div class='dal-portfolio-datitos'><div class='dal-fila'>";
                         //get the flags
                         $terms = get_the_terms( get_the_ID(), 'apppais' );
                         if( count( $terms ) > 0 )  {
