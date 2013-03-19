@@ -849,7 +849,7 @@ class Arconix_Portfolio {
                            if ( $countppais > 0 ){
                               
                                foreach ( $tpremiopaises as $tpremiopais ) {
-                                 $return .= "<div class='dal-portf-premio premioNac dal-portf-".$tpremiopais->slug ."'></div>";
+                                 $return .= "<div class='dal-portf-premio premioNac dal-portf-".$tpremiopais->slug ."'><div class='awardName'>".__('national')."</div></div>";
                                }
                              
                              }
@@ -862,7 +862,7 @@ class Arconix_Portfolio {
                            if ( $countpreg > 0 ){
                           
                                foreach ( $tpremioregionales as $tpremioregional ) {
-                                 $return .= "<div class='dal-portf-premio premioReg dal-portf-".$tpremioregional->slug ." '></div>";
+                                 $return .= "<div class='dal-portf-premio premioReg dal-portf-".$tpremioregional->slug ." '><div class='awardName'>".__('regional')."</div></div>";
                                }
                            
                              }          
