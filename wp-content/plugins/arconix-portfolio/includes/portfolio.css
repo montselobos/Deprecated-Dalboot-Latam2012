@@ -106,10 +106,10 @@ box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.43);
 .dal-fila-premios{}
 .dal-portfolio-tracks{
     float: left;
-    max-width: 118px;
+    max-width: 164px;
 }
 .dal-portfolio-tracks div{
-    font-size: 0.83em;
+   font-size: 0.83em;
     display: inline-block;
     background-color: #DFDFDF;
     border-radius: 3px;
@@ -118,6 +118,8 @@ box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.43);
     -o-border-radius: 3px;
     padding: 1px 7px;
     margin-right: 5px;
+    margin-top: 4px;
+    float: left;
 }
 .dal-portf-premio{ 
     width: 30px;
