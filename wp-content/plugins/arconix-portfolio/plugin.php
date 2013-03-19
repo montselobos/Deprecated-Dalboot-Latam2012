@@ -55,7 +55,8 @@ add_action( 'after_setup_theme', 'arconix_portfolio_init' );
 function arconix_portfolio_init() {
     global $_arconix_portfolio;
 
-    define( 'ACP_URL', '/wp-content/plugins/arconix-portfolio/' );
+    
+    define( 'ACP_URL', plugin_dir_url( __FILE__ ) );
     define( 'ACP_VERSION', '1.1' );
 
     /** Includes **/
